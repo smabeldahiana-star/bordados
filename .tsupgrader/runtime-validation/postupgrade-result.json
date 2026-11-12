@@ -1,0 +1,152 @@
+{
+  "planHash": "a551b0952d7b2c92c3a49e8353a694b91302db7abfefabf9099e9fa537e7cb30",
+  "phase": "postupgrade",
+  "recordedAtUtc": "2026-11-11T01:06:02.3657604Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "dependency-tree-resolves",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "punto-a-punto@1.0.0 C:\\Users\\mabel\\OneDrive\\Desktop\\bordados\r\n\u002B-- @supabase/supabase-js@2.119.0\r\n\u002B-- @typescript/typescript-win32-x64@7.0.2 extraneous\r\n\u002B-- @vitejs/plugin-react@6.3.0\r\n\u002B-- cloudinary@2.11.0\r\n\u002B-- concurrently@10.0.7\r\n\u002B-- dotenv@18.0.10\r\n\u002B-- express@5.3.0\r\n\u002B-- multer@2.5.0\r\n\u002B-- react-dom@19.3.1\r\n\u002B-- react@19.3.1\r\n\u002B-- typescript@7.0.2 extraneous\r\n\u0060-- vite@8.3.7\r\n\r\n",
+        "durationMs": 1150
+      },
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E punto-a-punto@1.0.0 build\r\n\u003E vite build\r\n\r\n\u001B[36mvite v8.3.7 \u001B[32mbuilding client environment for production...\u001B[36m\u001B[39m\r\ntransforming...\r\n\u2713 59 modules transformed.\r\nrendering chunks...\r\ncomputing gzip size...\r\ndist/index.html                   0.92 kB \u2502 gzip:   0.47 kB\r\ndist/assets/index-BoIR5GaE.css   11.97 kB \u2502 gzip:   3.09 kB\r\ndist/assets/index-CEAnJU1o.js   472.98 kB \u2502 gzip: 133.42 kB\r\n\r\n\u001B[32m\u2713 built in 457ms\u001B[39m\r\n",
+        "durationMs": 1766
+      },
+      {
+        "name": "home-page-200",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\r\n\u003Chtml lang=\u0022es\u0022\u003E\r\n  \u003Chead\u003E\n    \u003Cscript type=\u0022module\u0022\u003Eimport { injectIntoGlobalHook } from \u0022/@react-refresh\u0022;\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () =\u003E {};\nwindow.$RefreshSig$ = () =\u003E (type) =\u003E type;\u003C/script\u003E\n\n    \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\r\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\r\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 /\u003E\r\n    \u003Cmeta\r\n      name=\u0022description\u0022\r\n      content=\u0022Punto a Punto: bordados y parches personalizados para prendas, accesorios y regalos.\u0022\r\n    /\u003E\r\n    \u003Ctitle\u003EPunto a Punto | Bordados y parches personalizados\u003C/title\u003E\r\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.googleapis.com\u0022 /\u003E\r\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.gstatic.com\u0022 crossorigin /\u003E\r\n    \u003Clink\r\n      href=\u0022https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800\u0026family=Playfair\u002BDisplay:wght@600;700\u0026display=swap\u0022\r\n      rel=\u0022stylesheet\u0022\r\n    /\u003E\r\n  \u003C/head\u003E\r\n  \u003Cbody\u003E\r\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\r\n    \u003Cscript type=\u0022module\u0022 src=\u0022/src/main.jsx\u0022\u003E\u003C/script\u003E\r\n  \u003C/body\u003E\r\n\u003C/html\u003E\r\n",
+        "durationMs": 30
+      },
+      {
+        "name": "api-health-200",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n{\u0022status\u0022:\u0022ok\u0022}\n--- server output ---\n\u25C7 injected env (2) from .env.local\r\nBackend Punto a Punto disponible en http://localhost:18765\r\n",
+        "durationMs": 1045
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E punto-a-punto@1.0.0 test\r\n\u003E node --test\r\n\r\n\u2714 GET /api/health returns a healthy response (80.3268ms)\r\n\u2714 GET /api/integrations exposes configuration status without secrets (7.1999ms)\r\n\u2714 GET /api/inspiration rejects invalid search terms (5.7889ms)\r\n\u2714 GET /api/inspiration reports missing Pexels credentials (3.0098ms)\r\n\u2714 POST /api/admin/images requires an authenticated administrator (4.2421ms)\r\n\u2139 tests 5\r\n\u2139 suites 0\r\n\u2139 pass 5\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 734.7021\r\n",
+        "durationMs": 1470,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      }
+    ],
+    "executions": [
+      {
+        "source": "dependency-tree-resolves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ls",
+          "--depth=0"
+        ],
+        "cwd": "C:\\Users\\mabel\\OneDrive\\Desktop\\bordados",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-build",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "C:\\Users\\mabel\\OneDrive\\Desktop\\bordados",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "home-page-200",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev:vite",
+          "--",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "18766",
+          "--strictPort"
+        ],
+        "cwd": "C:\\Users\\mabel\\OneDrive\\Desktop\\bordados",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "api-health-200",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\node.EXE",
+        "args": [
+          "server/index.js"
+        ],
+        "cwd": "C:\\Users\\mabel\\OneDrive\\Desktop\\bordados",
+        "env": {
+          "PORT": "18765"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\mabel\\OneDrive\\Desktop\\bordados",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

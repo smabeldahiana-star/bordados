@@ -1,0 +1,246 @@
+- generic [ref=f8e2]:
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - generic [ref=f8e5]:
+        - generic [ref=f8e6]: P
+        - generic [ref=f8e7]:
+          - strong [ref=f8e8]: Punto a Punto
+          - text: Bordados a medida
+      - navigation "Navegación principal" [ref=f8e9]:
+        - link "Inicio" [ref=f8e10] [cursor=pointer]:
+          - /url: "#inicio"
+        - link "Servicios" [ref=f8e11] [cursor=pointer]:
+          - /url: "#servicios"
+        - link "Catálogo" [ref=f8e12] [cursor=pointer]:
+          - /url: "#catalogo"
+        - link "Carrito (0)" [ref=f8e13] [cursor=pointer]:
+          - /url: "#carrito"
+        - link "Galería" [ref=f8e14] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Inspiración" [ref=f8e15] [cursor=pointer]:
+          - /url: "#inspiracion"
+        - link "Ubicación" [ref=f8e16] [cursor=pointer]:
+          - /url: "#ubicacion"
+        - link "Pedidos" [ref=f8e17] [cursor=pointer]:
+          - /url: "#pedidos"
+        - button "Admin" [ref=f8e18] [cursor=pointer]
+  - main [ref=f8e19]:
+    - generic [ref=f8e21]:
+      - generic [ref=f8e22]:
+        - paragraph [ref=f8e23]: Personalizados · Hechos a mano · Con estilo
+        - heading "Diseños únicos para prendas, accesorios y regalos." [level=1] [ref=f8e24]
+        - paragraph [ref=f8e25]: En Punto a Punto diseñamos bordados y parches personalizados para marcas, eventos, equipos y momentos especiales.
+        - generic [ref=f8e26]:
+          - link "Ver catálogo" [ref=f8e27] [cursor=pointer]:
+            - /url: "#catalogo"
+          - link "Solicitar pedido" [ref=f8e28] [cursor=pointer]:
+            - /url: "#pedidos"
+        - list "Ventajas" [ref=f8e29]:
+          - listitem [ref=f8e30]: Diseños a medida
+          - listitem [ref=f8e31]: Entrega rápida
+          - listitem [ref=f8e32]: Calidad premium
+      - generic "Trabajos realizados en bordado" [ref=f8e33]:
+        - generic [ref=f8e34]:
+          - img "Máquina de bordar trabajando en diseños personalizados" [ref=f8e35]
+          - generic [ref=f8e36]:
+            - generic [ref=f8e37]: Hecho a mano
+            - text: Bordados y parches para prendas
+    - generic [ref=f8e39]:
+      - generic [ref=f8e40]:
+        - paragraph [ref=f8e41]: Nuestros servicios
+        - heading "Todo lo que necesitás para personalizar tu estilo" [level=2] [ref=f8e42]
+      - generic [ref=f8e43]:
+        - article [ref=f8e44]:
+          - generic [ref=f8e45]: ✂️
+          - heading "Bordado textil" [level=3] [ref=f8e46]
+          - paragraph [ref=f8e47]: Prendas, uniformes, remeras, mochilas, delantales y más.
+        - article [ref=f8e48]:
+          - generic [ref=f8e49]: 🧵
+          - heading "Parches personalizados" [level=3] [ref=f8e50]
+          - paragraph [ref=f8e51]: Diseños exclusivos para logos, frases, nombres y motivos.
+        - article [ref=f8e52]:
+          - generic [ref=f8e53]: 🎨
+          - heading "Diseño a medida" [level=3] [ref=f8e54]
+          - paragraph [ref=f8e55]: Te acompañamos en la creación del diseño ideal para tu idea.
+        - article [ref=f8e56]:
+          - generic [ref=f8e57]: 📦
+          - heading "Pedidos por volumen" [level=3] [ref=f8e58]
+          - paragraph [ref=f8e59]: Ideal para emprendimientos, regalos empresariales y eventos.
+    - generic [ref=f8e61]:
+      - generic [ref=f8e62]:
+        - paragraph [ref=f8e63]: Catálogo
+        - heading "Inspiración para tu próximo pedido" [level=2] [ref=f8e64]
+      - generic [ref=f8e65]:
+        - generic [ref=f8e66]:
+          - text: Buscar productos
+          - searchbox "Buscar productos por nombre o categoría" [ref=f8e67]
+        - button "Todos" [ref=f8e68] [cursor=pointer]
+        - button "Bordado" [ref=f8e69] [cursor=pointer]
+        - button "Parches" [ref=f8e70] [cursor=pointer]
+        - button "Uniformes" [ref=f8e71] [cursor=pointer]
+        - button "Accesorios" [ref=f8e72] [cursor=pointer]
+        - button "Remeras" [ref=f8e73] [cursor=pointer]
+      - generic [ref=f8e74]:
+        - article [ref=f8e75]:
+          - img "Bordado Criadero Montana" [ref=f8e76]
+          - generic [ref=f8e77]:
+            - generic [ref=f8e78]: Bordado
+            - generic [ref=f8e79]:
+              - heading "Bordado Criadero Montana" [level=3] [ref=f8e80]
+              - generic [ref=f8e81]: Consultar
+            - paragraph [ref=f8e82]: Logo ecuestre bordado en una prenda.
+            - button "Agregar al carrito" [ref=f8e83] [cursor=pointer]
+        - article [ref=f8e84]:
+          - img "Parches bordados corporativos" [ref=f8e85]
+          - generic [ref=f8e86]:
+            - generic [ref=f8e87]: Parches
+            - generic [ref=f8e88]:
+              - heading "Parches bordados corporativos" [level=3] [ref=f8e89]
+              - generic [ref=f8e90]: Consultar
+            - paragraph [ref=f8e91]: Diseños bordados personalizados para marcas y equipos.
+            - button "Agregar al carrito" [ref=f8e92] [cursor=pointer]
+        - article [ref=f8e93]:
+          - img "Bordado floral en prenda" [ref=f8e94]
+          - generic [ref=f8e95]:
+            - generic [ref=f8e96]: Bordado
+            - generic [ref=f8e97]:
+              - heading "Bordado floral en prenda" [level=3] [ref=f8e98]
+              - generic [ref=f8e99]: Consultar
+            - paragraph [ref=f8e100]: Bordado floral de colores sobre una prenda azul.
+            - button "Agregar al carrito" [ref=f8e101] [cursor=pointer]
+        - article [ref=f8e102]:
+          - img "Bordado Blessed" [ref=f8e103]
+          - generic [ref=f8e104]:
+            - generic [ref=f8e105]: Bordado
+            - generic [ref=f8e106]:
+              - heading "Bordado Blessed" [level=3] [ref=f8e107]
+              - generic [ref=f8e108]: Consultar
+            - paragraph [ref=f8e109]: Frase bordada en una sudadera.
+            - button "Agregar al carrito" [ref=f8e110] [cursor=pointer]
+        - article [ref=f8e111]:
+          - img "Bordado para uniforme" [ref=f8e112]
+          - generic [ref=f8e113]:
+            - generic [ref=f8e114]: Uniformes
+            - generic [ref=f8e115]:
+              - heading "Bordado para uniforme" [level=3] [ref=f8e116]
+              - generic [ref=f8e117]: Consultar
+            - paragraph [ref=f8e118]: Logos bordados para personalizar prendas de trabajo.
+            - button "Agregar al carrito" [ref=f8e119] [cursor=pointer]
+        - article [ref=f8e120]:
+          - img "Parche bordado circular" [ref=f8e121]
+          - generic [ref=f8e122]:
+            - generic [ref=f8e123]: Parches
+            - generic [ref=f8e124]:
+              - heading "Parche bordado circular" [level=3] [ref=f8e125]
+              - generic [ref=f8e126]: Consultar
+            - paragraph [ref=f8e127]: Parche circular con diseño bordado personalizado.
+            - button "Agregar al carrito" [ref=f8e128] [cursor=pointer]
+        - article [ref=f8e129]:
+          - img "Remera navideña con reno" [ref=f8e130]
+          - generic [ref=f8e131]:
+            - generic [ref=f8e132]: Remeras
+            - generic [ref=f8e133]:
+              - heading "Remera navideña con reno" [level=3] [ref=f8e134]
+              - generic [ref=f8e135]: Consultar
+            - paragraph [ref=f8e136]: Remera blanca con una ilustración festiva de reno y el texto “Merry Christmas”.
+            - button "Agregar al carrito" [ref=f8e137] [cursor=pointer]
+        - article [ref=f8e138]:
+          - img "Remera navideña con árbol" [ref=f8e139]
+          - generic [ref=f8e140]:
+            - generic [ref=f8e141]: Remeras
+            - generic [ref=f8e142]:
+              - heading "Remera navideña con árbol" [level=3] [ref=f8e143]
+              - generic [ref=f8e144]: Consultar
+            - paragraph [ref=f8e145]: Diseño navideño con árbol, regalos y muñeco de nieve, mostrado sobre una remera negra.
+            - button "Agregar al carrito" [ref=f8e146] [cursor=pointer]
+      - region "Carrito de compras (0)" [ref=f8e147]:
+        - generic [ref=f8e148]:
+          - generic [ref=f8e149]:
+            - paragraph [ref=f8e150]: Tu selección
+            - heading "Carrito de compras (0)" [level=3] [ref=f8e151]
+          - link "Continuar con el pedido" [ref=f8e152] [cursor=pointer]:
+            - /url: "#pedidos"
+        - paragraph [ref=f8e153]: Tu carrito está vacío. Agrega productos del catálogo para armar tu pedido.
+    - generic [ref=f8e155]:
+      - generic [ref=f8e156]:
+        - paragraph [ref=f8e157]: Galería
+        - heading "Bordados y parches para prendas" [level=2] [ref=f8e158]
+        - paragraph [ref=f8e159]: ¿Buscas un parche navideño para una prenda? Cuéntanos tu idea en el formulario y solicita un diseño personalizado.
+      - generic [ref=f8e160]:
+        - figure [ref=f8e161]:
+          - img "Bordado personalizado en una toalla para un evento" [ref=f8e162]
+        - figure [ref=f8e163]:
+          - img "Bordado de un logotipo de repostería sobre una sudadera" [ref=f8e164]
+        - figure [ref=f8e165]:
+          - generic "Video de un trabajo de bordado" [ref=f8e166]: Tu navegador no puede reproducir este video.
+    - generic [ref=f8e168]:
+      - generic [ref=f8e169]:
+        - paragraph [ref=f8e170]: Ideas para tus diseños
+        - heading "Inspiración para bordados y parches" [level=2] [ref=f8e171]
+        - paragraph [ref=f8e172]: Busca fotografías de referencia en Pexels para encontrar ideas para tu próximo diseño.
+      - generic [ref=f8e173]:
+        - generic [ref=f8e174]:
+          - text: Buscar ideas
+          - searchbox "Buscar ideas" [ref=f8e175]: bordados y parches
+        - button "Buscar en Pexels" [ref=f8e176] [cursor=pointer]
+    - generic [ref=f8e178]:
+      - generic [ref=f8e179]:
+        - paragraph [ref=f8e180]: ¿Por qué elegirnos?
+        - heading "Diseños pensados para durar y destacar" [level=2] [ref=f8e181]
+      - generic [ref=f8e182]:
+        - generic [ref=f8e183]:
+          - strong [ref=f8e184]: "01"
+          - paragraph [ref=f8e185]: Materiales de calidad y terminaciones cuidadosas.
+        - generic [ref=f8e186]:
+          - strong [ref=f8e187]: "02"
+          - paragraph [ref=f8e188]: Atención personalizada para cada pedido y presupuesto.
+        - generic [ref=f8e189]:
+          - strong [ref=f8e190]: "03"
+          - paragraph [ref=f8e191]: Ideas con un toque único para marcas, regalos y eventos.
+    - generic [ref=f8e193]:
+      - generic [ref=f8e194]:
+        - paragraph [ref=f8e195]: Encuéntranos
+        - heading "Visítanos en San Vicente" [level=2] [ref=f8e196]
+        - paragraph [ref=f8e197]: La ubicación que compartiste está en EDS Terpel - Afas, San Vicente, Antioquia. Abre el mapa para consultar cómo llegar.
+        - link "Abrir ubicación en Google Maps" [ref=f8e198] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/KG6SmsbzNR47qs4s9
+      - iframe [ref=f8e200]
+    - generic [ref=f8e202]:
+      - generic [ref=f8e203]:
+        - paragraph [ref=f8e204]: Solicitá tu pedido
+        - heading "Hacé tu consulta sin registrarte" [level=2] [ref=f8e205]
+        - paragraph [ref=f8e206]: Envianos tu pedido o una idea de bordado o parche personalizado. Puedes adjuntar una imagen de referencia y te contactamos por WhatsApp para confirmar detalles, precio, pago y entrega.
+      - generic [ref=f8e207]:
+        - generic [ref=f8e208]:
+          - text: Nombre
+          - textbox "Nombre" [ref=f8e209]:
+            - /placeholder: Tu nombre
+        - generic [ref=f8e210]:
+          - text: WhatsApp
+          - textbox "WhatsApp" [ref=f8e211]:
+            - /placeholder: "Ej: +54 9 11 1234 5678"
+        - generic [ref=f8e212]:
+          - text: Tipo de trabajo
+          - combobox "Tipo de trabajo" [ref=f8e213]:
+            - option "Bordado textil" [selected]
+            - option "Parche personalizado"
+            - option "Parche bordado navideño para prenda"
+            - option "Diseño personalizado"
+            - option "Uniformes / equipo"
+            - option "Regalo / evento"
+        - generic [ref=f8e214]:
+          - text: Detalles
+          - textbox "Detalles" [ref=f8e215]:
+            - /placeholder: Contanos qué querés personalizar, colores, tamaño, cantidad y cualquier referencia que tengas.
+        - generic [ref=f8e216]:
+          - text: Imagen de referencia (opcional, JPG, PNG o WebP; máximo 5 MB)
+          - button "Imagen de referencia (opcional, JPG, PNG o WebP; máximo 5 MB)" [ref=f8e217]
+        - button "Enviar pedido por WhatsApp" [ref=f8e218] [cursor=pointer]
+  - link "Chatear por WhatsApp" [ref=f8e219] [cursor=pointer]:
+    - /url: https://wa.me/573233120676?text=Hola%20Punto%20a%20Punto%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido.
+    - text: WhatsApp
+  - contentinfo [ref=f8e220]:
+    - generic [ref=f8e221]:
+      - paragraph [ref=f8e222]: © 2026 Punto a Punto
+      - link "sanchezariasmabeldahiana@gmail.com" [ref=f8e223] [cursor=pointer]:
+        - /url: mailto:sanchezariasmabeldahiana@gmail.com
