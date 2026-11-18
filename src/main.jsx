@@ -745,7 +745,7 @@ function App() {
         <section id="inicio" className="hero">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">Personalizados · Hechos a mano · Con estilo</p>
+              <p className="eyebrow">Personalizados · Con estilo</p>
               <h1>Diseños únicos para prendas, accesorios y regalos.</h1>
               <p className="lead">
                 En {siteInfo.business_name} diseñamos bordados y parches personalizados para
@@ -765,7 +765,6 @@ function App() {
               <div className="image-stack">
                 <img src="images/maquina-bordado.jpg" alt="Máquina de bordar trabajando en diseños personalizados" />
                 <div className="floating-card">
-                  <span>Hecho a mano</span>
                   <small>Bordados y parches para prendas</small>
                 </div>
               </div>
